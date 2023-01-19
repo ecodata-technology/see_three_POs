@@ -5,6 +5,6 @@ Showcase 1: Using weather databases to evaluate agrochemical product performance
 
 Showcase 2: Simulating economic and ecological outcomes in diversified, perennial cropping systems
 
-Showcase 3: Building machine learning / AI pipelines for analyzing drone image data on farms
+Showcase 3: Crowdsourced data for modeling spongey moth and invasive species.
 
 
