@@ -1,0 +1,52 @@
+---
+title: "EcoData Technology Analytics Demo"
+author: "robclark@ecodata.tech"
+date: "2023-01-05"
+output:
+  html_document:
+    keep_md: yes
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+  pdf_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries, include=FALSE}
+library(tidyverse)
+library(readxl)
+```
+# The problem: herbicide failure
+Agrochemical products deal with all the environmental extremes that occurs in the field. High temperatures, cold winds, and record droughts prevent products from working as intended. Our client suspected high temperatures were inhibiting an herbicide, causing expensive wastage.
+
+[image of frost damage]
+<center>
+![](images/glyphosate.png){width=70%}
+<center>
+
+The client sales team had collected simple survey responses from growers, recording if their product had worked or not. End-users were reporting more product failure in spring around days with extremely high maximum temperatures.
+
+```{r survey data, echo=FALSE}
+#import a nice xlsx file and render just the table
+survey_dat <- read.csv("demo.csv") 
+head(survey_dat)
+
+```
+
+But was this what was actually occurring in the field? And if so, at what temperatures? Our client's survey confirmed their suspicions, but they needed hard numbers to improve their product.
+
+[flow chart of data being emailed or shipped]
+
+# Our solution: enriching end-user surveys
+
+Surprisingly, that was all the data we needed to start answering this question. The rest of the information we used was generated in-house by our environmental data scientists. Daily temperatures, rainfall, even cumulative degree days - all of these were leveraged to enrich the client's existing surveys.
+
+[picture of someone working on a computer giving answers back to the salesperson. Lame but it gets the point across]
+
+# Digging deeper
+
+We then used this information to pinpoint temperature thresholds where product failed, so our client knew when exactly their growers could spray to minimize waste. But how clear-cut these temperature thresholds were depended on state. We dug deeper to answer why.
