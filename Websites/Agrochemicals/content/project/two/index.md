@@ -103,7 +103,7 @@ The p-value summarizes how confident we are in the model conclusions, or the ris
 
 In California, a p-value under 0.001 says we’re very confident that spraying at high temperatures would just be a waste - **there's only a 0.1% chance our conclusion is wrong.** Growers can estimate the cost of *not* spraying (e.g. pest damage), adjust for the chance our model is wrong (0.1%), and compare to the savings made by not (wastefully) spraying.
 
-By contrast, in the Florida model we have a p-value of 0.82. So there’s a 82% risk that higher temperatures *don’t* affect the product. In other words, **advising end-users to save their herbicide at high temperatures might lead to pest damage that could’ve been avoided.**
+By contrast, in the Florida model we have a p-value of 0.82. So there’s a 82% risk that higher temperatures *don’t* affect the product. In other words, **advising end-users to save their herbicide at high temperatures might lead to pest damage that could have been avoided.**
 
 ## Distilling things down to actionable insights
 

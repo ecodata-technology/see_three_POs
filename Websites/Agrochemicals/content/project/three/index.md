@@ -120,14 +120,14 @@ We then calculated which proportion of the photograph was covered with thick clo
 
 ## Overall result from the cloud-cover analysis
 
-In Florida, product failure was slightly less likely on farms that experenced a week of high cloud cover (Figure 1). Like temperature, this isn't too helpful on its own.
+In Florida, product failure was slightly less likely on farms that experienced a week of high cloud cover (Figure 1). Like temperature, this isn't too helpful on its own.
 
 <div class="figure">
 <img src="{{< blogdown/postref >}}index_files/figure-html/cloud-1.png" alt="Like temperature, cloud cover alone wasn't great at predicting product failure." width="672" />
 <p class="caption">Figure 1: Like temperature, cloud cover alone wasn't great at predicting product failure.</p>
 </div>
 
-However, **when accounting for temperature and cloud cover at the same time, we found that hot, clear days were much more likely to cause product failure than hot but cloudy days**. This gave us results resembling what we found in Califnornia.
+However, **when accounting for temperature and cloud cover at the same time, we found that hot, clear days were much more likely to cause product failure than hot but cloudy days**. This gave us results resembling what we found in California.
 
 <div class="figure">
 <img src="{{< blogdown/postref >}}index_files/figure-html/interaction-1.png" alt="The solid line shows the effect of temperature on the product on clear sunny days, the dotted line on overcast days. The impact of temperature is strong on clear days, but not cloudy days." width="672" />

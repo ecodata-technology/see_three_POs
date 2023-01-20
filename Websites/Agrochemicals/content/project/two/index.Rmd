@@ -79,7 +79,7 @@ demo_dat %>%
     theme_ecodata() +
     theme(
       panel.background = element_rect(fill=bg, colour=NA),
-      plot.background = element_rect(fill=bg, colour=NA),
+      plot.background = element_rect(fill=bg, colour=bg),
       axis.line = element_line(colour=wh),
       axis.text = element_text(colour=wh),
       axis.title.x = element_text(colour=wh),
@@ -114,7 +114,7 @@ ggplot(data=eff2$Daily_high_temp,aes(x=Daily_high_temp, y=fit))+
   theme_ecodata() +
   theme(
     panel.background = element_rect(fill=bg, colour=NA),
-    plot.background = element_rect(fill=bg, colour=NA),
+    plot.background = element_rect(fill=bg, colour=bg),
     axis.line = element_line(colour=wh),
     axis.text = element_text(colour=wh),
     axis.title.x = element_text(colour=wh),
@@ -139,7 +139,7 @@ ggplot(data=eff2$Daily_high_temp,aes(x=Daily_high_temp, y=fit))+
   theme_ecodata() +
   theme(
     panel.background = element_rect(fill=bg, colour=NA),
-    plot.background = element_rect(fill=bg, colour=NA),
+    plot.background = element_rect(fill=bg, colour=bg),
     axis.line = element_line(colour=wh),
     axis.text = element_text(colour=wh),
     axis.title.x = element_text(colour=wh),
@@ -170,7 +170,7 @@ ggplot(data=eff3$Daily_high_temp,aes(x=Daily_high_temp, y=fit))+
   theme_ecodata() +
   theme(
     panel.background = element_rect(fill=bg, colour=NA),
-    plot.background = element_rect(fill=bg, colour=NA),
+    plot.background = element_rect(fill=bg, colour=bg),
     axis.line = element_line(colour=wh),
     axis.text = element_text(colour=wh),
     axis.title.x = element_text(colour=wh),
@@ -188,7 +188,7 @@ The p-value summarizes how confident we are in the model conclusions, or the ris
 
 In California, a p-value under 0.001 says we’re very confident that spraying at high temperatures would just be a waste - **there's only a 0.1% chance our conclusion is wrong.** Growers can estimate the cost of *not* spraying (e.g. pest damage), adjust for the chance our model is wrong (0.1%), and compare to the savings made by not (wastefully) spraying.
 
-By contrast, in the Florida model we have a p-value of 0.82. So there’s a 82% risk that higher temperatures *don’t* affect the product. In other words, **advising end-users to save their herbicide at high temperatures might lead to pest damage that could’ve been avoided.**
+By contrast, in the Florida model we have a p-value of 0.82. So there’s a 82% risk that higher temperatures *don’t* affect the product. In other words, **advising end-users to save their herbicide at high temperatures might lead to pest damage that could have been avoided.**
 
 ## Distilling things down to actionable insights
 

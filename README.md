@@ -114,13 +114,13 @@ Once set up you can edit content as above, then make a new deploy on Netlify.
 
 #### Deploying sites
 
-![From your Netlify account page under 'Sites' select 'Import an exiting project' under 'Add new site'.](./assets/images/newdeploy.png)
+![From your Netlify account page under 'Sites' select 'Import an exiting project' under 'Add new site'](./assets/images/newdeploy.png)
 
-![Select the repo and branch (See 3 POs, main) and enter the base directory (Websites/<sitename>). The rest should auto-detect.](./assets/images/newdeploy.png)
+![Select the repo and branch (See 3 POs, main) and enter the base directory (Websites/<sitename>). The rest should auto-detect](./assets/images/deploysettings.png)
 
-![Change the placeholder URL. Replacing the '.netlify.app' part requires a paid account.](./assets/images/newdomain.png)
+![Change the placeholder URL. Replacing the '.netlify.app' part requires a paid account](./assets/images/newdomain.png)
 
-Finally, we need to update `/config/_default.config.yaml` with this new URL. Just paste it at `baseURL:` at the top of the file. Then commit and Push the updated config to the deployed site.
+Finally, we need to update `/config/_default/config.yaml` with this new URL. Just paste it at `baseURL:` at the top of the file. Then commit and Push the updated config to the deployed site.
 
 For more on Netlify deploys check out the [Blogdown docs section on deploying](https://bookdown.org/yihui/blogdown/netlify.html).
 
@@ -164,4 +164,4 @@ The landing page is [built with 'blocks'](https://wowchemy.com/blocks/) in a big
 - `page_footer.html` and `page_metadata.html` in `/layouts/partials/` override the default copies of these files that added dates and tags to sub-pages.
 - Just delete or rename them to restore the default behaviour.
 
-![Out of the box, sub-pages display a date and a tag button that can't be removed.](./assets/images/dates-tags.png)
+![Out of the box, sub-pages display a date and a tag button that can't be removed](./assets/images/dates-tags.png)

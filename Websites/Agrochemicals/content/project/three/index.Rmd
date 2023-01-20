@@ -102,7 +102,7 @@ dat3[1:5, 1:4] %>%
 
 ## Overall result from the cloud-cover analysis
 
-In Florida, product failure was slightly less likely on farms that experenced a week of high cloud cover (Figure 1). Like temperature, this isn't too helpful on its own.
+In Florida, product failure was slightly less likely on farms that experienced a week of high cloud cover (Figure 1). Like temperature, this isn't too helpful on its own.
 
 ```{r cloud, fig.cap="Like temperature, cloud cover alone wasn't great at predicting product failure."}
 mod4 = glm(response ~ Cloud_cover, family=binomial, data=dat3)
@@ -118,7 +118,7 @@ ggplot(data=eff4$Cloud_cover,aes(x=Cloud_cover, y=fit))+
   theme_ecodata() +
   theme(
     panel.background = element_rect(fill=bg, colour=NA),
-    plot.background = element_rect(fill=bg, colour=NA),
+    plot.background = element_rect(fill=bg, colour=bg),
     axis.line = element_line(colour=wh),
     axis.text = element_text(colour=wh),
     axis.title.x = element_text(colour=wh),
@@ -128,7 +128,7 @@ ggplot(data=eff4$Cloud_cover,aes(x=Cloud_cover, y=fit))+
   geom_point(data=dat3, aes(x=Cloud_cover, y=as.double(response)-1), position=position_jitter(w=0.05, h=0), alpha=.3, colour=pl)
 ```
 
-However, **when accounting for temperature and cloud cover at the same time, we found that hot, clear days were much more likely to cause product failure than hot but cloudy days**. This gave us results resembling what we found in Califnornia.
+However, **when accounting for temperature and cloud cover at the same time, we found that hot, clear days were much more likely to cause product failure than hot but cloudy days**. This gave us results resembling what we found in California.
 
 ```{r interaction, fig.cap="The solid line shows the effect of temperature on the product on clear sunny days, the dotted line on overcast days. The impact of temperature is strong on clear days, but not cloudy days."}
 mod5 = glm(response ~ Daily_high_temp * Cloud_cover, family=binomial, data=dat3)
@@ -141,7 +141,7 @@ ggplot(df,aes(x=x,y=predicted,group=group)) +
   theme(
     legend.position="none",
     panel.background = element_rect(fill=bg, colour=NA),
-    plot.background = element_rect(fill=bg, colour=NA),
+    plot.background = element_rect(fill=bg, colour=bg),
     axis.line = element_line(colour=wh),
     axis.text = element_text(colour=wh),
     axis.title.x = element_text(colour=wh),
