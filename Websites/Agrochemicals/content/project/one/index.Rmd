@@ -4,7 +4,7 @@ weight: 1
 image:
   preview_only: true
 summary: |-
-  Agrochemical products deal with all the environmental extremes that occur in the field. Our client suspected high air temperatures were preventing an herbicide from working. A simple survey of growers confirmed their suspicions, but they needed hard numbers to improve their product.
+  Agrochemical products deal with all the environmental extremes that occur in the field. Our client suspected high air temperatures were preventing an organic insecticide from working. A simple survey of growers using this plant-derived product confirmed their suspicions, but they needed hard numbers to improve usage reccomendations.
   
   We gathered the rest of the data. Though temperature was important, our data scientists uncovered more questions about product performance on farms in different US states.
   
@@ -39,7 +39,7 @@ qt {
 
 Agrochemical products deal with all the environmental extremes that occurs in the field. High temperatures, cold winds, and record droughts prevent products from working as intended. 
 
-> <qt>*"We suspected extraordinarily high and low temperatures might impact the performance of our agrochemical used by citrus growers, causing expensive wastage for our customers."*</qt>
+> <qt>*"We suspected extraordinarily high and low temperatures might impact the performance of a new organic-certified product used by citrus growers, causing expensive wastage for our customers."*</qt>
 
 <img src="img2.jpg" style="border-radius: 5%;" />
 
@@ -47,7 +47,7 @@ The client sales team had collected simple survey responses from growers, record
 
 <img src="img3.jpg" style="border-radius: 5%;" />
 
-**So what was really occurring in the field?** And if temperature was the culprit, exactly when did chemical performance degrade?
+**So what was really occurring in the field?** And if temperature was the culprit, exactly when did product performance degrade?
 
 Our client's survey confirmed their suspicions, but they needed hard numbers to improve their product. Here's a sample of the initial end-user survey provided to us by the client, with GPS coordinates omitted:
 
