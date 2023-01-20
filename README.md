@@ -16,34 +16,7 @@ Focusing only on the key files and folders to edit the content or make a new mar
 
 Using Agrochemicals as an example, key files are highlighted in **bold**:
 
-.
-└── Agrochemicals/
-    ├── assets/
-    │   └── media/
-    │       └── **bg.jpeg**
-    ├── config/
-    │   └── default/
-    │       ├── **config.yaml**
-    │       ├── **menus.yaml**
-    │       └── params.yaml
-    ├── content/
-    │   ├── **_index.md**
-    │   ├── authors/
-    │   └── project/
-    │       ├── one/
-    │       │   ├── **index.Rmd**
-    │       │   └── index.md
-    │       ├── two/
-    │       │   ├── **index.Rmd**
-    │       │   └── index.md
-    │       └── three/
-    │           ├── **index.Rmd**
-    │           └── index.md
-    ├── data/
-    ├── layouts/
-    ├── R/
-    ├── resources/
-    └── themes/
+![Markdown broke my nice ASCII folder tree so I'm going to use a screenshot of it for now](./assets/images/structure.png)
 
 ## Editing content
 The key pieces of content for most editing jobs are:
@@ -74,7 +47,7 @@ The landing page is defined in one huge YAML header in /content/_index.md.
 1. Edit the headline title in the 'title:' section (line 6) of the 'Hero' block.
 2. Edit the project summary (Client, Themes, Techniques) in the 'text:' section (line 21) of the first 'markdown' block.
 
-![YAML is sensitive to indenting so double-check if it's failing to build. Enclose in " " if you want to include any colons (:) as these also give YAML issues](landingedits.png)
+![YAML is sensitive to indenting so double-check if it's failing to build. Enclose in " " if you want to include any colons (:) as these also give YAML issues](./assets/images/landingedits.png)
 
 ### 4. Landing page footer image
 
