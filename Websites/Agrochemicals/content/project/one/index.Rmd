@@ -1,5 +1,5 @@
 ---
-title: Temperature impact on herbicide performance
+title: Temperature impact on organic insecticide performance
 weight: 1
 image:
   preview_only: true

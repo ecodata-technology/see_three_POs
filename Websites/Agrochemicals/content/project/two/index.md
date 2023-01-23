@@ -33,7 +33,7 @@ qt {
 
 ## Uncovering hidden complexities
 
-Our analyses confirmed the client’s initial hunch that temperature alone drove product failure. Going further, our data scientists also found that product performance was responding differently to temperature on the East Coast compared to the West.
+Our analyses confirmed the client’s initial hunch that temperature alone drove product failure. Going further, our data scientists also found that their plant-derived product was responding differently to temperature on the East Coast compared to the West.
 
 <img src="cafl_map.svg" style="border-radius: 5%;" />
 
@@ -45,7 +45,7 @@ Some analyses are easy to interpret – we can summarize them with simple bar gr
 
 > <qt>*"We felt the team at Ecodata really valued our time. They walked us through the specifics, but always brought things back to the key highlights. Results and implications of the analyses were clear... we never felt lost in the gritty details."*</qt>
 
-One such analysis is the binomial GLM, a powerful tool for yes/no data like our client provided. But the outputs can be tricky to visualize, and tricker when different segments arise in the data such as geography.
+One such analysis is the binomial GLM, a powerful tool for yes/no data like our client provided. But the outputs can be tricky to visualize, and trickier when different segments arise in the data such as geography.
 
 <img src="consult.jpg" style="border-radius: 5%;" />
 
@@ -103,7 +103,7 @@ The p-value summarizes how confident we are in the model conclusions, or the ris
 
 In California, a p-value under 0.001 says we’re very confident that spraying at high temperatures would just be a waste - **there's only a 0.1% chance our conclusion is wrong.** Growers can estimate the cost of *not* spraying (e.g. pest damage), adjust for the chance our model is wrong (0.1%), and compare to the savings made by not (wastefully) spraying.
 
-By contrast, in the Florida model we have a p-value of 0.82. So there’s a 82% risk that higher temperatures *don’t* affect the product. In other words, **advising end-users to save their herbicide at high temperatures might lead to pest damage that could have been avoided.**
+By contrast, in the Florida model we have a p-value of 0.82. So there’s a 82% risk that higher temperatures *don’t* affect the product. In other words, **advising end-users to save their organic insecticide at high temperatures might lead to pest damage that could have been avoided.**
 
 ## Distilling things down to actionable insights
 
@@ -111,4 +111,4 @@ By contrast, in the Florida model we have a p-value of 0.82. So there’s a 82% 
 
 Here we'd advise our client to give strong guidance to citrus growers in California. But for end-users in Florida, their advice should be transparent but qualified.
 
-> <qt>*"The take-home was simple: don't waste our herbicide above 88F. Clear advice for West Coast orchards made it easy for us to ensure customer satisfaction. We wanted to provide the same kind of clear guidance to our customers in the East, so we asked Ecodata to drill further into the Florida data."*</qt>
+> <qt>*"The take-home was simple: don't waste our plant-derived insecticide above 88F. Clear advice for West Coast orchards made it easy for us to ensure customer satisfaction. We wanted to provide the same kind of clear guidance to our customers in the East, so we asked Ecodata to drill further into the Florida data."*</qt>
