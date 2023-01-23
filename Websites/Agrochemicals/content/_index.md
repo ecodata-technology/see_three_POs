@@ -22,7 +22,7 @@ sections:
 
       ### {{< icon name="user-tie" pack="fas" >}} **Client:** American agrochemical producer
         
-      ### {{< icon name="briefcase" pack="fas" >}} **Themes:** Herbicide performance, regional climates 
+      ### {{< icon name="briefcase" pack="fas" >}} **Themes:** Organic pesticide performance, regional climates 
         
       ### {{< icon name="terminal" pack="fas" >}} **Techniques:** End-user surveys, binomial GLM, image extraction, R
   design:
