@@ -8,7 +8,7 @@ summary: |-
   
   We gathered the rest of the data. Though temperature was important, our data scientists uncovered more questions about product performance on farms in different US states.
   
-  Click for more on how we scoped the problem.
+  Click the photo for more.
 tags:
 - Intro
 share: false
