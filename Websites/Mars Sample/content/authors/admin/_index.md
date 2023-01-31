@@ -4,7 +4,7 @@ social:
     header: true
   icon: linkedin
   icon_pack: fab
-  label: Follow us on Linkedin
+  label: External link buttons like this are also possible
   link: https://www.linkedin.com/in/rob-clark-abb2a1201
 superuser: true
 ---

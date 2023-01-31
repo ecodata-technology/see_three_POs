@@ -4,19 +4,13 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: "Overview: Agrochemical Performance"
+  - name: "Projects Home"
     url: /
     weight: 10
-  - name: "1: Project Scoping"
-    url: /project/one
+  - name: "1: Simulation Sample Report"
+    url: /project/sim-report
     weight: 20
-  - name: "2: Reporting Complexity"
-    url: /project/two
-    weight: 30
-  - name: "3: Data Engineering"
-    url: /project/three
-    weight: 40
-  - name: Contact Us
+  - name: Example external link
     url: https://www.ecodata.tech/projects#contact
     weight: 50
 

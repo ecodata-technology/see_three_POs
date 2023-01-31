@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day:
-  theme_night: ecodata
-  font: ecodata
+  theme_day: mars
+  theme_night:
+  font: mars
   font_size: L
 
 # SEO
@@ -31,7 +31,7 @@ marketing:
 
 header:
   navbar:
-    block: econavbar
+    block: marsnavbar
     enable: true
     align: r
     show_logo: true

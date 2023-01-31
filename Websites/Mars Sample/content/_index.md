@@ -1,38 +1,37 @@
 ---
-title: "Agrochemical performance"
+title: "Sample report index"
 sections:
 - block: hero
   content:
     title: |-
     
-      Agrochemical performance
-    
-      in the field
+      Sustainable farming
+      
+      at xxxx
   design:
     spacing:
       padding: ["40px","0","20px","0"]
     background:
-      gradient_end: '#1b2724'
-      gradient_start: '#264038'
-      text_color_light: yes
+      gradient_end: '#ffffff'
+      gradient_start: '#ffffff'
     css_class: 'big_headline'
 - block: markdown
   content:
     text: |-
 
-      ### {{< icon name="user-tie" pack="fas" >}} **Client:** American agrochemical producer
+      ### {{< icon name="user-tie" pack="fas" >}} **Organization:** Sustainable agriculture
         
-      ### {{< icon name="briefcase" pack="fas" >}} **Themes:** Organic pesticide performance, regional climates 
+      ### {{< icon name="briefcase" pack="fas" >}} **Location:** Sulawesi, Indonesia
         
-      ### {{< icon name="terminal" pack="fas" >}} **Techniques:** End-user surveys, binomial GLM, image extraction, R
+      ### {{< icon name="terminal" pack="fas" >}} **Themes:** Mixed cropping, income diversification, pollinator trials 
   design:
     background:
       image:
-        color: '#1b2724'
-        text_color_light: yes
+        color: '#00D8B8'
+        text_color_light: no
     css_class: 'brief'
     spacing:
-      padding: ["20px","0","5px","0"]
+      padding: ["0px","0","15px","0"]
 - block: portfolio
   content:
     filters:
@@ -51,8 +50,8 @@ sections:
     flip_alt_rows: yes
     view: community/showcase_rounded
     background:
-      color: '#1b2724'
-      text_color_light: yes
+      color: '#ffffff'
+      text_color_light: no
 - block: markdown
   design:
     background:
