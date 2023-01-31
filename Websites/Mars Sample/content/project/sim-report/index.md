@@ -26,58 +26,86 @@ qt {
 }
 </style>
 
-## Background
-
 <img src="landscape.jpg" style="border-radius: 5%;" />
+
+## Motivation
+
+Diverse agroforestry systems can offer many environmental and economic benefits. The Farm System Diversification Program has been working with Ecodata Technologies to quantify these benefits.
 
 ## Data collection takes time
 
-yeow
-
 <img src="collection.jpg" style="border-radius: 5%;" />
 
-## How we use forecasts to help
+Farms can take a while to reach good returns, especially those growing long-lived perennial trees. Cocoa trees fruit for 30 years, but we don't have to wait 30 years to compare cocoa ROI to shorter-lived annual crops.
 
-Dense cloud cover blocks UV rays, but also starves fast-growing crop plants of light for photosynthesis. **Both factors can affect agrochemical products.**
+## Using forecasts to help
+
+<img src="cocoa_time.gif"/>
+
+Our partners at Ecodata Technology have developed simulations to forecast the range of economic outcomes we can expect under different agroforestry designs.
 
 ## Building 'what if?' scenarios
 
-asd
+<img src="nursury.jpg" style="border-radius: 5%;" />
 
-## How the simulation works
+These simulations allow us to screen new hypothetical farm plot designs for potential performance before committing valuable resources.
 
-made up by simulating each crop vid
+# How the simulation works
 
+Under the hood, each crop is simulated independently. Economic forecasts are then aggregated to the whole plot.
 
-combine to get economic outcomes for the plot as a whole vid
+<img src="facet_time.gif"/>
 
+## Input data were curated
 
-#### 
+[Head of crosswalks?]
 
-To explore how cloud cover impacted product outcomes in Florida, **we needed to estimate cloud cover on farms for the entire week prior to product application.**
+First, data for each crop were collected from our farms in Sulawesi. Ecodata developed a data cleaning pipeline to standardize these parameters and validate against external data sources.
 
-#### Inputs were varied
+## Economic inputs were varied
 
-Look at this
+<img src="inputs.gif"/>
 
-<video controls loop autoplay src='inputs.webm' />
+Labor and materials costs were unique for each crop, extending across multiple different time-scales - some crops live for over 30 years, others for under 12 months.
 
-#### Iterating plant growth and harvest each time-step
+## So were crop life histories
+
+<img src="thinning.jpeg" style="border-radius: 5%;" />
+
+The team at Ecodata were selected for their experience with modeling this diversity we see in our agroecological systems. For example, our timber species are destructively harvested, which had to be simulated differently to non-destructive harvesting of fruits.
+
+## Growing and harvesting were simulated on a monthly basis
 
 <img src="run_sim.gif"/>
 
-kjh
+Monthly time-steps capture seasonal variation in crop performance and enable us to compare long-lived and short-lived crops.
 
-#### Outputs
+## Simple business metrics
 
-Another
+Predicted harvests are summarized in dollar terms, accounting for factors such as inflation and fluctuating exchange rates.
 
-<video controls loop autoplay src='output_dots.webm' />
+<img src="output_dots.gif"/>
 
-ehhhh
+# Powering new business questions
 
-## How we improved the end-user experience
+<img src="cocoa.jpg" style="border-radius: 5%;" />
 
-> <qt>*"Ecodata made the results easy to explain to our customers on the East Coast: avoid use on days with hot and clear mornings, but on overcast days it's generally safe to spray even when it's hot.*"</qt>
+Ecodata have provided extensive tooling for us to ask how different agricultural plot designs might perform.
 
-<img src="cocoa.jpeg" style="border-radius: 5%;" />
+## Getting granular
+
+[demo of the dashboard]
+
+Simulation results are gathered into a Tableau dashboard where we can slice through the results. For example, we can search for pain points in each crop's life-cycle by assess how yields, expenses, and revenues evolve month-on-month.
+
+## Custom plot designs
+
+We can easily provide the specifications for new plot designs to feed into the model. To date we've investigated over 150 different farm designs, integrating up to 30 different crops.
+
+<img src="AF Design 1.JPG"/>
+
+## The bottom line
+
+With these tools we've been able to explore the potential opportunities and risks when adopting new crop varieties, rotations, and intercropping strategies before ever planting a new seed in the ground.
+
+<img src="plots.jpg" style="border-radius: 5%;"/>
