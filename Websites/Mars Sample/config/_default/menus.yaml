@@ -1,0 +1,27 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: "Overview: Agrochemical Performance"
+    url: /
+    weight: 10
+  - name: "1: Project Scoping"
+    url: /project/one
+    weight: 20
+  - name: "2: Reporting Complexity"
+    url: /project/two
+    weight: 30
+  - name: "3: Data Engineering"
+    url: /project/three
+    weight: 40
+  - name: Contact Us
+    url: https://www.ecodata.tech/projects#contact
+    weight: 50
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 70
