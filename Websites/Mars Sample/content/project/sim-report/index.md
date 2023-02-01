@@ -68,6 +68,8 @@ First, data for each crop were collected from our farms in Sulawesi. Ecodata dev
 
 Labor and materials costs were unique for each crop, extending across multiple different time-scales - some crops live for over 30 years, others for under 12 months.
 
+<div style="background-color: #00DDFB; color: #0000A5;">
+
 ## So were crop life histories
 
 <img src="thinning.jpeg" style="border-radius: 5%;" />
@@ -79,6 +81,8 @@ The team at Ecodata were selected for their experience with modeling this divers
 <img src="run_sim.gif" />
 
 Monthly time-steps capture seasonal variation in crop performance and enable us to compare long-lived and short-lived crops.
+
+</div>
 
 ## Simple business metrics
 
