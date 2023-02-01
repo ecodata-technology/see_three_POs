@@ -40,7 +40,7 @@ Farms can take a while to reach good returns, especially those growing long-live
 
 ## Using forecasts to help
 
-<img src="cocoa_time.gif" />
+<video autoplay loop style="width:100%" controls src="cocoa_sim.webm"></video>
 
 Our partners at Ecodata Technology have developed simulations to forecast the range of economic outcomes we can expect under different agroforestry designs.
 
@@ -58,8 +58,6 @@ Under the hood, each crop is simulated independently. Economic forecasts are the
 
 ## Input data were curated
 
-[Head of crosswalks?]
-
 First, data for each crop were collected from our farms in Sulawesi. Ecodata developed a data cleaning pipeline to standardize these parameters and validate against external data sources.
 
 ## Economic inputs were varied
@@ -68,7 +66,7 @@ First, data for each crop were collected from our farms in Sulawesi. Ecodata dev
 
 Labor and materials costs were unique for each crop, extending across multiple different time-scales - some crops live for over 30 years, others for under 12 months.
 
-<div style="background-color:  #00D8B8; color: #0000A5;">
+<div style="background-color:  #00D8B8; color: #0000A5; padding: 12px">
 
 <h2 style="color: #0000A5"> So were crop life histories </h2>
 
@@ -97,8 +95,6 @@ Predicted harvests are summarized in dollar terms, accounting for factors such a
 Ecodata have provided extensive tooling for us to ask how different agricultural plot designs might perform.
 
 ## Getting granular
-
-[demo of the dashboard]
 
 Simulation results are gathered into a Tableau dashboard where we can slice through the results. For example, we can search for pain points in each crop's life-cycle by assess how yields, expenses, and revenues evolve month-on-month.
 
