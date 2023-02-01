@@ -68,7 +68,7 @@ First, data for each crop were collected from our farms in Sulawesi. Ecodata dev
 
 Labor and materials costs were unique for each crop, extending across multiple different time-scales - some crops live for over 30 years, others for under 12 months.
 
-<div style="background-color: #00DDFB; color: #0000A5;">
+<div style="background-color: #00DDFB; color: #0000A5; margin: 0 -9999rem; padding: 0.25rem 9999rem; overflow-x: hidden;">
 
 ## So were crop life histories
 
