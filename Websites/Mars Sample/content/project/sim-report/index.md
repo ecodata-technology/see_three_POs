@@ -22,7 +22,7 @@ p.caption {
   padding: 0px 0px 40px 0px;
 }
 qt {
-  color:#525252;
+  color: #525252;
 }
 </style>
 
@@ -68,15 +68,15 @@ First, data for each crop were collected from our farms in Sulawesi. Ecodata dev
 
 Labor and materials costs were unique for each crop, extending across multiple different time-scales - some crops live for over 30 years, others for under 12 months.
 
-<div style="background-color: #00DDFB; color: #0000A5; margin: 0 -9999rem; padding: 0.25rem 9999rem; overflow-x: hidden;">
+<div style="background-color: #00DDFB; color: #0000A5;">
 
-## So were crop life histories
+<h2 style="color: #0000A5"> So were crop life histories </h2>
 
 <img src="thinning.jpeg" style="border-radius: 5%;" />
 
 The team at Ecodata were selected for their experience with modeling this diversity we see in our agroecological systems. For example, our timber species are destructively harvested, which had to be simulated differently to non-destructive harvesting of fruits.
 
-## Growing and harvesting were simulated on a monthly basis
+<h2 style="color: #0000A5"> Growing and harvesting were simulated on a monthly basis </h2>
 
 <img src="run_sim.gif" />
 
