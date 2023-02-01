@@ -40,7 +40,11 @@ Farms can take a while to reach good returns, especially those growing long-live
 
 ## Using forecasts to help
 
-<video autoplay loop style="width:100%" controls src="cocoa_sim.webm"></video>
+<!-- The webm version loses the pause at the end, so I've retained gifs for the timelapse animations. Just uncomment to revert to the webms. -->
+
+<!-- <video autoplay loop style="width:100%" controls src="cocoa_sim.webm"></video> -->
+
+<img src="cocoa_mars.gif" />
 
 Our partners at Ecodata Technology have developed simulations to forecast the range of economic outcomes we can expect under different agroforestry designs.
 
@@ -52,9 +56,15 @@ These simulations allow us to screen new hypothetical farm plot designs for pote
 
 # How the simulation works
 
-Under the hood, each crop is simulated independently. Economic forecasts are then aggregated to the whole plot.
+<!-- The webm version loses the pause at the end, so I've retained gifs for the two timelapse animations. Just uncomment to revert to the webms. -->
 
-<img src="facet_time.gif" />
+<!-- <video autoplay loop style="width:100%" controls src="facet_time.webm"></video> -->
+
+<img src="facet_mars.gif" />
+
+Under the hood, each crop is simulated independently. These are aggregated to make forecasts for the whole plot.
+
+<img src="agg_mars.gif" />
 
 ## Input data were curated
 
@@ -65,6 +75,8 @@ First, data for each crop were collected from our farms in Sulawesi. Ecodata dev
 <video autoplay loop style="width:100%" controls src="inputs.webm"></video>
 
 Labor and materials costs were unique for each crop, extending across multiple different time-scales - some crops live for over 30 years, others for under 12 months.
+
+<!-- Have to use html tags rather than markdown to get the coloured box panels to look right. Copy them or just let me know which bits you'd like in boxes and I'll do it tomorrow. -->
 
 <div style="background-color:  #00D8B8; color: #0000A5; padding: 12px">
 
