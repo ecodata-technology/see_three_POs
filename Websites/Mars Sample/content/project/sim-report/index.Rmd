@@ -1,5 +1,5 @@
 ---
-title: "'What if?' scenarios with cacao agroforestry"
+title: "'What if?' scenarios in cacao agroforestry"
 weight: 3
 summary: |- 
 
@@ -40,7 +40,7 @@ Farms can take a while to reach good returns, especially those growing long-live
 
 ## Using forecasts to help
 
-<img src="cocoa_time.gif"/>
+<img src="cocoa_time.gif" />
 
 Our partners at Ecodata Technology have developed simulations to forecast the range of economic outcomes we can expect under different agroforestry designs.
 
@@ -54,7 +54,7 @@ These simulations allow us to screen new hypothetical farm plot designs for pote
 
 Under the hood, each crop is simulated independently. Economic forecasts are then aggregated to the whole plot.
 
-<img src="facet_time.gif"/>
+<img src="facet_time.gif" />
 
 ## Input data were curated
 
@@ -64,7 +64,7 @@ First, data for each crop were collected from our farms in Sulawesi. Ecodata dev
 
 ## Economic inputs were varied
 
-<img src="inputs.gif"/>
+<video autoplay loop style="width:100%" controls src="inputs.webm"></video>
 
 Labor and materials costs were unique for each crop, extending across multiple different time-scales - some crops live for over 30 years, others for under 12 months.
 
@@ -76,7 +76,7 @@ The team at Ecodata were selected for their experience with modeling this divers
 
 ## Growing and harvesting were simulated on a monthly basis
 
-<img src="run_sim.gif"/>
+<img src="run_sim.gif" />
 
 Monthly time-steps capture seasonal variation in crop performance and enable us to compare long-lived and short-lived crops.
 
@@ -84,7 +84,7 @@ Monthly time-steps capture seasonal variation in crop performance and enable us 
 
 Predicted harvests are summarized in dollar terms, accounting for factors such as inflation and fluctuating exchange rates.
 
-<img src="output_dots.gif"/>
+<video autoplay loop style="width:100%" controls src="output_dots.webm"></video>
 
 # Powering new business questions
 
@@ -102,10 +102,10 @@ Simulation results are gathered into a Tableau dashboard where we can slice thro
 
 We can easily provide the specifications for new plot designs to feed into the model. To date we've investigated over 150 different farm designs, integrating up to 30 different crops.
 
-<img src="AF Design 1.JPG"/>
+<img src="AF Design 1.JPG" />
 
 ## The bottom line
 
 With these tools we've been able to explore the potential opportunities and risks when adopting new crop varieties, rotations, and intercropping strategies before ever planting a new seed in the ground.
 
-<img src="plots.jpg" style="border-radius: 5%;"/>
+<img src="plots.jpg" style="border-radius: 5%;" />
