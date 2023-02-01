@@ -4,15 +4,15 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: "Projects Home"
+  - name: "Project Index"
     url: /
     weight: 10
-  - name: "1: Simulation Sample Report"
+  - name: "1: Agroforestry Simulations"
     url: /project/sim-report
     weight: 20
-  - name: Example external link
-    url: https://www.ecodata.tech/projects#contact
-    weight: 50
+  - name: "2: Crop Optimization"
+    url: /project/dummy-url
+    weight: 20
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
