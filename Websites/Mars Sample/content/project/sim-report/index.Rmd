@@ -3,7 +3,7 @@ title: "'What if?' scenarios in cacao agroforestry"
 weight: 3
 summary: |- 
 
-  A summary of the report. Through this landing page we can provide a table of contents of multiple reports, spanning different projects. You can click the image or report title to dive in, or access reports through the upper navigation bar.
+  How can we see if farms will perform well if they take a decade to reach maturity? Using a combination of farm data and computer simulations, we can see how things will play out before planing a single seed.
 image:
   preview_only: true
 tags:
@@ -80,11 +80,11 @@ Labor and materials costs were unique for each crop, extending across multiple d
 
 <div style="background-color:  #00D8B8; color: #0000A5; padding: 12px">
 
-<h2 style="color: #0000A5"> So were crop life histories </h2>
+<h2 style="color: #0000A5"> Timber harvest life histories </h2>
 
 <img src="thinning.jpeg" style="border-radius: 5%;" />
 
-The flexible pipeline developed by EcoData can simulate continuous harvesting and single-event harvesting, like timber or annual crops like corn.
+The flexible pipeline developed by EcoData can simulate continuous harvesting and single-event harvesting, like Red Teak.
 
 <h2 style="color: #0000A5"> Growing and harvesting were simulated on a monthly basis </h2>
 

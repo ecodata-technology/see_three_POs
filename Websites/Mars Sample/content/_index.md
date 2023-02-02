@@ -5,9 +5,7 @@ sections:
   content:
     title: |-
     
-      Sustainable farming
-      
-      at xxxx
+      Sustainable Agroforestry
   design:
     spacing:
       padding: ["40px","0","20px","0"]
@@ -23,7 +21,7 @@ sections:
         
       ### {{< icon name="briefcase" pack="fas" >}} **Location:** Sulawesi, Indonesia
         
-      ### {{< icon name="terminal" pack="fas" >}} **Themes:** Mixed cropping, income diversification, pollinator trials 
+      ### {{< icon name="terminal" pack="fas" >}} **Themes:** Mixed cropping, income diversification, computer simulations
   design:
     background:
       image:
