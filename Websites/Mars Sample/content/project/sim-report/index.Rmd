@@ -30,13 +30,13 @@ qt {
 
 ## Motivation
 
-Diverse agroforestry systems can offer many environmental and economic benefits. The Farm System Diversification Program has been working with Ecodata Technologies to quantify these benefits.
+Increaing the diversity of crops in cacao agroforestry systems can benefit both farmers and the environment. The Farm System Diversification Program has been working with Ecodata Technology to quantify the economic and ecological outcomes of new farm designs in Indonesian cacao farms.
 
 ## Data collection takes time
 
 <img src="collection.jpg" style="border-radius: 5%;" />
 
-Farms can take a while to reach good returns, especially those growing long-lived perennial trees. Cocoa trees fruit for 30 years, but we don't have to wait 30 years to compare cocoa ROI to shorter-lived annual crops.
+Perennial crops like cacao, coconut, and mango take years to hit their first yield. Cocoa trees fruit for 30 years, meaning most farm designs have a life cycle longer than most research programs. Using a combination of high-quality farm data and computer simulations, we are working on long-range forecasts to compare different farm scenarios.
 
 ## Using forecasts to help
 
@@ -46,13 +46,13 @@ Farms can take a while to reach good returns, especially those growing long-live
 
 <img src="cocoa_mars.gif" />
 
-Our partners at Ecodata Technology have developed simulations to forecast the range of economic outcomes we can expect under different agroforestry designs.
+Using a combination of statistics and computer science skills, we can forecast the range of economic outcomes expected under different agroforestry designs. The data "pipeline" underlying this project is highly flexible: the simulation will change based on updated econonmic data and we can ask for forecasts from an unlimited number of agroforestry layouts.
 
 ## Building 'what if?' scenarios
 
 <img src="nursury.jpg" style="border-radius: 5%;" />
 
-These simulations allow us to screen new hypothetical farm plot designs for potential performance before committing valuable resources.
+The approach isn't all too complicated. Using a known range of values for yields, labor costs, and materials costs, we make monthly projections for costs and returns. Once we see an "what if?" scenario, we can see if the returns are worth investing in real-world field trials or not.
 
 # How the simulation works
 
@@ -62,19 +62,19 @@ These simulations allow us to screen new hypothetical farm plot designs for pote
 
 <img src="facet_mars.gif" />
 
-Under the hood, each crop is simulated independently. These are aggregated to make forecasts for the whole plot.
+In each farm simulation, all crops are simulated independently. Up to a dozen crops can be included, and at the tail-end of the simulations, each crop's return is aggregated to make forecasts for a farm over 30 years.
 
 <img src="agg_mars.gif" />
 
 ## Input data were curated
 
-First, data for each crop were collected from our farms in Sulawesi. Ecodata developed a data cleaning pipeline to standardize these parameters and validate against external data sources.
+First, data for each crop were collected from our farms in Sulawesi, provided by the Sustainable Solutions team. Ecodata developed a data cleaning pipeline to standardize these parameters and validate against external data sources.
 
 ## Economic inputs were varied
 
 <video autoplay loop style="width:100%" controls src="inputs.webm"></video>
 
-Labor and materials costs were unique for each crop, extending across multiple different time-scales - some crops live for over 30 years, others for under 12 months.
+Labor and materials costs were unique for each crop, extending across multiple different time-scales - some crops live for over 30 years, others for only a few months. Some crops never produce fruit, and are instead timber species that are thinned only every 10 years!
 
 <!-- Have to use html tags rather than markdown to get the coloured box panels to look right. Copy them or just let me know which bits you'd like in boxes and I'll do it tomorrow. -->
 
@@ -84,7 +84,7 @@ Labor and materials costs were unique for each crop, extending across multiple d
 
 <img src="thinning.jpeg" style="border-radius: 5%;" />
 
-The team at Ecodata were selected for their experience with modeling this diversity we see in our agroecological systems. For example, our timber species are destructively harvested, which had to be simulated differently to non-destructive harvesting of fruits.
+The flexible pipeline developed by EcoData can simulate continuous harvesting and single-event harvesting, like timber or annual crops like corn.
 
 <h2 style="color: #0000A5"> Growing and harvesting were simulated on a monthly basis </h2>
 
@@ -104,15 +104,15 @@ Predicted harvests are summarized in dollar terms, accounting for factors such a
 
 <img src="cocoa.jpg" style="border-radius: 5%;" />
 
-Ecodata have provided extensive tooling for us to ask how different agricultural plot designs might perform.
+We've seen that one farm simulation only opens more questions! The project now is working towards a key question eluding researchers for some time: what is the 'ideal' cropping system given current economic conditions? The answer to that question is part of an ongoing collaboration.
 
 ## Getting granular
 
-Simulation results are gathered into a Tableau dashboard where we can slice through the results. For example, we can search for pain points in each crop's life-cycle by assess how yields, expenses, and revenues evolve month-on-month.
+For the Sustainable Solutions team to evaluate results of the simulation, forecasts are presented in dashboard-style. Simulation results are separated in each trial, with options to slice through the results. For example, materials costs or timber harvests can be excluded on the fly to assess how yields, expenses, and revenues could evolve month-on-month if major changes to activites are enacted.
 
 ## Custom plot designs
 
-We can easily provide the specifications for new plot designs to feed into the model. To date we've investigated over 150 different farm designs, integrating up to 30 different crops.
+The simulation process was built to be flexible and incorporate regular feedback from scientists and farmers alike. We can easily provide the specifications for new plot designs to feed into the model. To date we've investigated over 150 different farm designs, integrating up to 30 different crops.
 
 <img src="AF Design 1.JPG" />
 
