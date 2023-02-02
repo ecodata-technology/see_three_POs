@@ -10,9 +10,9 @@ main:
   - name: "1: Agroforestry Simulations"
     url: /project/sim-report
     weight: 20
-  - name: "2: Hand Pollination"
-    url: /project/dummy-url
-    weight: 20
+#  - name: "2: Hand Pollination"
+#    url: /project/dummy-url
+#    weight: 20
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
