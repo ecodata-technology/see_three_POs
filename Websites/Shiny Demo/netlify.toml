@@ -1,6 +1,7 @@
 [build]
 command = 'hugo'
 publish = 'public'
+ignore = 'exit 1'
 
 [build.environment]
 HUGO_VERSION = '0.109.0'
