@@ -5,7 +5,7 @@ sections:
   content:
     title: |-
     
-      Spongy Moth models
+      Decision support tools
     
       in the cloud
       
@@ -21,11 +21,18 @@ sections:
   content:
     text: |-
     
-      ### Mapping Spongy moth densities
+      ### {{< icon name="bug" pack="fas" >}} **Biological system:** Spongy moth, spotted lanternfly
+        
+      ### {{< icon name="calculator" pack="fas" >}} **Data analysis:** General additive models, iNaturalist dataset
+        
+      ### {{< icon name="terminal" pack="fas" >}} **Production stack:** R, Shiny, AWS, Nginx
+    
+      ### Engaging people with web-based apps
       
-      Growers wish to know where and when pests like Spongy moth (*Lysmantria dispar*) will appear. Ecodata modeled Spongy moth densities in space and time using field surveys and GAMs. Users can explore our forecasts using a Shiny app hosted on an AWS server.
+      Stakeholders respond well to interactive, local predictions. For example, foresters wish to know where and when pests like Spongy moth (*Lysmantria dispar*) will appear.
       
-      <iframe height="1000px" width="100%" frameborder="no" src="https://ecodatatech.shinyapps.io/ctspongymoth/"> </iframe>
+      <iframe height="1000px" width="100%" frameborder="no" src="https://ecodata.pro/phenogamTest/"> </iframe>
+      
   design:
     background:
       image:
