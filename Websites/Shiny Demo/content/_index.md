@@ -1,13 +1,14 @@
 ---
-title: "Agrochemical performance"
+title: "Shiny AWS"
 sections:
 - block: hero
   content:
     title: |-
     
-      Agrochemical performance
+      Spongy Moth models
     
-      in the field
+      in the cloud
+      
   design:
     spacing:
       padding: ["40px","0","20px","0"]
@@ -19,12 +20,13 @@ sections:
 - block: markdown
   content:
     text: |-
-
-      ### {{< icon name="user-tie" pack="fas" >}} **Client:** American agrochemical producer
         
-      ### {{< icon name="briefcase" pack="fas" >}} **Themes:** Organic pesticide performance, regional climates 
-        
-      ### {{< icon name="terminal" pack="fas" >}} **Techniques:** End-user surveys, binomial GLM, image extraction, R
+      ### {{< icon name="terminal" pack="fas" >}} Mapping Spongy moth densities
+      
+      Growers wish to know where and when pests like Spongy moth (*Lysmantria dispar*) will appear. Ecodata modeled Spongy moth densities in space and time using field surveys and GAMs. Users can explore our forecasts using a Shiny app hosted on an AWS server.
+      
+      <iframe height="1000px" width="100%" frameborder="no" src="https://ecodatatech.shinyapps.io/ctspongymoth/"> </iframe>
+      
   design:
     background:
       image:
