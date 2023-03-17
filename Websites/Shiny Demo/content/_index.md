@@ -25,7 +25,7 @@ sections:
         
       ### {{< icon name="calculator" pack="fas" >}} **Data analysis:** General additive models, iNaturalist dataset
         
-      ### {{< icon name="terminal" pack="fas" >}} **Production stack:** R, Shiny, AWS, Nginx
+      ### {{< icon name="terminal" pack="fas" >}} **Production stack:** R, Shiny, AWS, Shiny Server, Nginx
       
       <br />
     
