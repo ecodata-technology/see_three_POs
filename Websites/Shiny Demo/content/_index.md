@@ -26,10 +26,18 @@ sections:
       ### {{< icon name="calculator" pack="fas" >}} **Data analysis:** General additive models, iNaturalist dataset
         
       ### {{< icon name="terminal" pack="fas" >}} **Production stack:** R, Shiny, AWS, Nginx
+      
+      <br />
     
       ### Engaging people with web-based apps
       
       Stakeholders respond well to interactive, local predictions. For example, foresters wish to know where and when pests like Spongy moth (*Lysmantria dispar*) will appear.
+      
+      #### *Using the app*
+      
+      Select a year an da site on the **Map** tab to see estimated population densities for that location and year on the **Population Densities** tab.
+      
+      <span style="color:#6eb39c">Teal line</span> tracks today's date in 2023.
       
       <iframe height="1000px" width="100%" frameborder="no" src="https://ecodata.pro/phenogamTest/"> </iframe>
       
