@@ -37,10 +37,7 @@ sections:
       
       Select a year and a site on the **Map** tab to see estimated population densities for that location and year on the **Population Densities** tab. The <span style="color:#6eb39c">dotted teal line</span> tracks today's date in 2023.
       
-      <div style="position:relative; display:block; width: 100%">
-        <iframe height="100%" width="100%" src="https://ecodata.pro/phenogamTest/" frameborder="0" style="position:absolute; top:0; left: 0">
-        </iframe>
-      </div>
+        <iframe height="1100px" width="100%" src="https://ecodata.pro/phenogamTest/" frameborder="0"></iframe>
       
   design:
     background:
