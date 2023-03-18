@@ -33,11 +33,11 @@ sections:
       
       Stakeholders respond well to interactive, local predictions. For example, foresters wish to know where and when pests like Spongy moth (*Lysmantria dispar*) will appear.
       
-      *Using the app*
+      #### *Using the app*
       
       Select a year and a site on the **Map** tab to see estimated population densities for that location and year on the **Population Densities** tab. The <span style="color:#6eb39c">dotted teal line</span> tracks today's date in 2023.
       
-        <iframe height="1050px" width="100%" src="https://ecodata.pro/phenogamTest/" frameborder="0"></iframe>
+        <iframe height="1200px" width="100%" src="https://ecodata.pro/phenogamTest/" frameborder="0"></iframe>
       
   design:
     background:
