@@ -6,7 +6,7 @@ image:
 links:
 summary: |-
   
-  Pest-forecasting tools 'in the cloud' need deep technical expertise. The payoff is easy access for stakeholders to state-of-the-art, demanding models built on up-to-date data. We take inspiration from the tech industry's approach to MLOps.
+  Pest-forecasting tools 'in the cloud' needs deep technical expertise. The payoff is easy access for stakeholders to state-of-the-art, demanding models built on up-to-date data. We take inspiration from the tech industry's approach to MLOps.
   
   Our data and scripts are stored on an Amazon Web Service EC2 instance, which scales on-the-fly to meet computing needs. The Ubuntu virtual machine also hosts the Shiny server used to share the results on the web, and Nginx and Certbot for accessibility and security.
   
