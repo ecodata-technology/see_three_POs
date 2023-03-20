@@ -31,7 +31,7 @@ sections:
     
       ## Engaging people with web-based apps
       
-      Stakeholders respond well to interactive, local predictions. For example, foresters wish to know where and when pests like Spongy moth (*Lysmantria dispar*) will appear.
+      Stakeholders respond well to interactive, local predictions. For example, foresters wish to know where and when pests like Spongy moth (*Lymantria dispar*) will appear.
       
       #### *Using the app*
       
