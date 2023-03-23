@@ -1,0 +1,21 @@
+# Theme metadata
+name = "mars" # Based on https://www.ecodata.tech/
+
+[light]
+  # Primary
+  primary = "#000000"
+  background = "#ffffff"
+
+  text = "#000000"
+  link = "#0000a0"
+  link_hover = "#00DDFB"
+
+  # Menu
+  menu_primary = "#0000a0"
+  menu_text = "#ffffff"
+  menu_text_active = "#FF8200"
+  menu_title = "#00DDFB"
+
+  # Home sections
+  home_section_odd = "#00D8B8"
+  home_section_even = "#00D8B8"
