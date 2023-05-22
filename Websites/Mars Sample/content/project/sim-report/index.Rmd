@@ -1,19 +1,17 @@
 ---
-title: "'What if?' scenarios in cacao agroforestry"
+title: '''What if?'' scenarios in cacao agroforestry'
 weight: 3
-summary: |- 
-
+summary: |2-
   How can we see if farms will perform well if they take a decade to reach maturity? Using a combination of farm data and computer simulations, we can see how things will play out before planting a single seed.
 image:
-  preview_only: true
-tags:
-- Solution
-share: false
-profile: false
-comments: false
-reading_time: false
+  preview_only: yes
+tags: Solution
+share: no
+profile: no
+comments: no
+reading_time: no
 design:
-  css_class: 'big_headline'
+  css_class: big_headline
 ---
 
 <style>
@@ -30,7 +28,7 @@ qt {
 
 ## Motivation
 
-Increaing the diversity of crops in cacao agroforestry systems can benefit both farmers and the environment. The Farm System Diversification Program has been working with Ecodata Technology to quantify the economic and ecological outcomes of new farm designs in Indonesian cacao farms.
+Increasing the diversity of crops in cacao agroforestry systems can benefit both farmers and the environment. The Farm System Diversification Program has been working with Ecodata Technology to quantify the economic and ecological outcomes of new farm designs in Indonesian cacao farms.
 
 ## Data collection takes time
 
@@ -46,7 +44,7 @@ Perennial crops like cacao, coconut, and mango take years to hit their first yie
 
 <img src="cocoa_mars.gif" />
 
-Using a combination of statistics and computer science skills, we can forecast the range of economic outcomes expected under different agroforestry designs. The data "pipeline" underlying this project is highly flexible: the simulation will change based on updated econonmic data and we can ask for forecasts from an unlimited number of agroforestry layouts.
+Leveraging statistics and data science, we can forecast the range of economic outcomes expected under different agroforestry designs. The data pipeline underlying this project is highly flexible: the simulation will change based on updated economic data and we can ask for forecasts from an unlimited number of agroforestry layouts.
 
 ## Building 'what if?' scenarios
 
@@ -108,7 +106,7 @@ We've seen that one farm simulation only opens more questions! The project now i
 
 ## Getting granular
 
-For the Sustainable Solutions team to evaluate results of the simulation, forecasts are presented in dashboard-style. Simulation results are separated in each trial, with options to slice through the results. For example, materials costs or timber harvests can be excluded on the fly to assess how yields, expenses, and revenues could evolve month-on-month if major changes to activites are enacted.
+For the Sustainable Solutions team to evaluate results of the simulation, forecasts are presented in dashboard-style. Simulation results are separated in each trial, with options to slice through the results. For example, materials costs or timber harvests can be excluded on the fly to assess how yields, expenses, and revenues could evolve month-on-month if major changes to activities are enacted.
 
 ## Custom plot designs
 
@@ -121,3 +119,11 @@ The simulation process was built to be flexible and incorporate regular feedback
 With these tools we've been able to explore the potential opportunities and risks when adopting new crop varieties, rotations, and intercropping strategies before ever planting a new seed in the ground.
 
 <img src="plots.jpg" style="border-radius: 5%;" />
+
+## Cocoa for Generations
+
+Collecting and using data in these ways is expensive and complicated, and virtually out of reach for the small rural landholders who produce our cocoa. Companies have the opportunity to lend the necessary resources for these growers to harness powerful data science.
+
+<img src="beans.jpeg" style="border-radius: 5%;" />
+
+This stewardship is key to [Cocoa for Generations](https://www.mars.com/sustainability-plan/cocoa-for-generations), which places the interests of the smallholder farmers in our supply chains front and center. That why we’ve reinvested into our growers, with the help of partners like Ecodata. By using what we’ve learned about agroforestry, our suppliers are better equipped to enhance their yields responsibly so that they, their land, their communities, and future generations of cocoa growers can thrive. 
