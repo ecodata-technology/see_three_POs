@@ -122,8 +122,8 @@ With these tools we've been able to explore the potential opportunities and risk
 
 ## Cocoa for Generations
 
-Collecting and using data in these ways is expensive and complicated, and virtually out of reach for the small rural landholders who produce our cocoa. Companies have the opportunity to lend the necessary resources for these growers to harness powerful data science.
+Collecting and using data in these ways is expensive and complicated, and virtually out of reach for the small rural landholders who produce cocoa for Mars. Companies have the opportunity to lend the necessary resources for these growers to harness powerful data science.
 
 <img src="beans.jpeg" style="border-radius: 5%;" />
 
-This stewardship is key to [Cocoa for Generations](https://www.mars.com/sustainability-plan/cocoa-for-generations), which places the interests of the smallholder farmers in our supply chains front and center. That why we’ve reinvested into our growers, with the help of partners like Ecodata. By using what we’ve learned about agroforestry, our suppliers are better equipped to enhance their yields responsibly so that they, their land, their communities, and future generations of cocoa growers can thrive. 
+This stewardship is key to [Cocoa for Generations](https://www.mars.com/sustainability-plan/cocoa-for-generations), which places the interests of the smallholder farmers in Mars' supply chains front and center. That why we’ve reinvested into our growers, with the help of partners like Ecodata. By using what we’ve learned about agroforestry, our suppliers are better equipped to enhance their yields responsibly so that they, their land, their communities, and future generations of cocoa growers can thrive. 
