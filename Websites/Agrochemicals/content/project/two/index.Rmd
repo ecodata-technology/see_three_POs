@@ -66,7 +66,7 @@ One such analysis is the binomial GLM, a powerful tool for yes/no data like our 
 
 ## A case study: how we leverage simple yes/no surveys
 
-A client has provided us with 104 growers reporting success or failure of a product - here we'll use some anonymized results. We’ve enriched the survey with additional environmental data performed a statistical analysis.
+A client has provided us with 104 growers reporting success or failure of a product - here we'll use some anonymized results. We’ve enriched the survey with additional environmental data and performed a statistical analysis.
 
 ```{r bar, fig.cap="Simple bar chart showing the overall response from end-user survey on agrochemical success following product application. A plot like this gives a useful summary, but loses valuable detail."}
 demo_dat %>%

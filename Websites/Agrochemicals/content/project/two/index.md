@@ -53,11 +53,11 @@ One such analysis is the binomial GLM, a powerful tool for yes/no data like our 
 
 ## A case study: how we leverage simple yes/no surveys
 
-A client has provided us with 104 growers reporting success or failure of a product - here we'll use some anonymized results. We’ve enriched the survey with additional environmental data performed a statistical analysis.
+A client has provided us with 104 growers reporting success or failure of a product - here we'll use some anonymized results. We’ve enriched the survey with additional environmental data and performed a statistical analysis.
 
 <div class="figure">
 <img src="{{< blogdown/postref >}}index_files/figure-html/bar-1.png" alt="Simple bar chart showing the overall response from end-user survey on agrochemical success following product application. A plot like this gives a useful summary, but loses valuable detail." width="672" />
-<p class="caption">Figure 1: Simple bar chart showing the overall response from end-user survey on agrochemical success following product application. A plot like this gives a useful summary, but loses valuable detail.</p>
+<p class="caption"><span id="fig:bar"></span>Figure 1: Simple bar chart showing the overall response from end-user survey on agrochemical success following product application. A plot like this gives a useful summary, but loses valuable detail.</p>
 </div>
 
 It looks like warmer temperatures degrade agrochemical performance. **But how can we know for sure?** And when exactly is it too hot to use the product?
@@ -74,14 +74,14 @@ In California we see a steep S-curve, showing a strong correlation between high 
 
 <div class="figure">
 <img src="{{< blogdown/postref >}}index_files/figure-html/cali-1.png" alt="Probability of agrochemical product success in response to daily maximum temperatures on farms in California. High temperatures significantly impacted product performance (p &lt; 0.001)." width="672" />
-<p class="caption">Figure 2: Probability of agrochemical product success in response to daily maximum temperatures on farms in California. High temperatures significantly impacted product performance (p < 0.001).</p>
+<p class="caption"><span id="fig:cali"></span>Figure 2: Probability of agrochemical product success in response to daily maximum temperatures on farms in California. High temperatures significantly impacted product performance (p < 0.001).</p>
 </div>
 
 Reported product failures show up along the bottom of the plot (0%) and successes are at the top (100%), represented by dots at different temperatures.
 
 <div class="figure">
 <img src="{{< blogdown/postref >}}index_files/figure-html/calibox-1.png" alt="The product fell below the client's key performance rate of 75% (horizontal line) above 88F." width="672" />
-<p class="caption">Figure 3: The product fell below the client's key performance rate of 75% (horizontal line) above 88F.</p>
+<p class="caption"><span id="fig:calibox"></span>Figure 3: The product fell below the client's key performance rate of 75% (horizontal line) above 88F.</p>
 </div>
 
 This area is where we figure out what the thresholds are. The product begins to fail just under 80F, **when the shaded confidence ribbon drops below 100%.** By 88F the success rate dropped beneath the client's key performance threshold of 75%. Beyond 103F the product no longer worked at all.
@@ -92,7 +92,7 @@ On the other hand, we’re much less confident about how temperature impacts the
 
 <div class="figure">
 <img src="{{< blogdown/postref >}}index_files/figure-html/fl-1.png" alt="Probability of agrochemical product success in response to daily maximum temperatures on farms in Florida only (p = 0.82)." width="672" />
-<p class="caption">Figure 4: Probability of agrochemical product success in response to daily maximum temperatures on farms in Florida only (p = 0.82).</p>
+<p class="caption"><span id="fig:fl"></span>Figure 4: Probability of agrochemical product success in response to daily maximum temperatures on farms in Florida only (p = 0.82).</p>
 </div>
 
 #### Working with uncertainty
