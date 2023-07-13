@@ -1,0 +1,21 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: "Project Index"
+    url: /
+    weight: 10
+  - name: "1: Agroforestry Simulations"
+    url: /project/sim-report
+    weight: 20
+#  - name: "2: Hand Pollination"
+#    url: /project/dummy-url
+#    weight: 20
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+#  - name: CV
+#    url: uploads/resume.pdf
+#    weight: 70
