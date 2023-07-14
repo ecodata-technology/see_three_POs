@@ -35,8 +35,6 @@ sections:
       folders: project
       tags:
       - Intro
-      - Problem
-      - Solution
     title: ''
     sort_by: Weight
     sort_ascending: yes
@@ -44,6 +42,7 @@ sections:
     spacing:
       padding: ["40px","0","40px","0"]
     columns: '1'
+    view: showcase
     flip_alt_rows: yes
     background:
       gradient_end: '#008f96'
