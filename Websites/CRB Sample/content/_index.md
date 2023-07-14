@@ -45,7 +45,6 @@ sections:
       padding: ["40px","0","40px","0"]
     columns: '1'
     flip_alt_rows: yes
-    view: community/showcase_rounded
     background:
       gradient_end: '#008f96'
       gradient_start: '#167799'
