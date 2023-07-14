@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: mars
+  theme_day: crb
   theme_night:
-  font: mars
+  font: crb
   font_size: L
 
 # SEO
@@ -31,7 +31,7 @@ marketing:
 
 header:
   navbar:
-    block: marsnavbar
+    block: crbnavbar
     enable: true
     align: r
     show_logo: true

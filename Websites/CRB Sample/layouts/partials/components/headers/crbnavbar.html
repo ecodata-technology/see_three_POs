@@ -7,10 +7,10 @@
 
 {{/* Get site logo. */}}
 {{ $show_logo := site.Params.header.navbar.show_logo | default true }}
-{{ $has_logo := fileExists "assets/media/logo.png" | or (fileExists "assets/media/logo.svg") }}
+{{ $has_logo := fileExists "assets/media/logo.png" | or (fileExists "assets/media/logo.png") }}
 {{ $logo := "" }}
 {{ if $has_logo }}
-  {{ $logo = (partial "functions/get_logo" (dict "constraint" "max_height" "size" 70)) }}
+  {{ $logo = (partial "functions/get_logo" (dict "constraint" "max_height" "size" 110)) }}
 {{ end }}
 
 <header>
@@ -19,7 +19,7 @@
 
       {{if $show_logo}}
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="https://www.mars.com/sustainability-plan">
+        <a class="navbar-brand" href="https://citrusresearch.org/">
           {{- if $has_logo -}}
             <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
             {{with site.Params.header.image.width}}width="{{.}}"{{end}}
@@ -40,7 +40,7 @@
 
       {{if $show_logo}}
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="https://www.mars.com/sustainability-plan">
+        <a class="navbar-brand" href="https://citrusresearch.org/">
         {{- if $has_logo -}}
           <img src="{{ $logo.RelPermalink }}" alt="{{ site.Title }}"
           {{with site.Params.header.image.width}}width="{{.}}"{{end}}
