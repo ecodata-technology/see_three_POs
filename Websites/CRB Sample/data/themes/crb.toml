@@ -11,10 +11,10 @@ name = "crb" # Based on https://citrusresearch.org/
   link_hover = "#ffa202"
 
   # Menu
-  menu_primary = "#000000"
-  menu_text = "#000000"
+  menu_primary = "#ffffff"
+  menu_text = "#ffffff"
   menu_text_active = "ffa202"
-  menu_title = "#000000"
+  menu_title = "#ffffff"
 
   # Home sections
   home_section_odd = "#000000"
