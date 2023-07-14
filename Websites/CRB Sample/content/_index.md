@@ -1,11 +1,11 @@
 ---
-title: "Sample report index"
+title: "Proposal index"
 sections:
 - block: hero
   content:
     title: |-
     
-      Sustainable Agroforestry
+      A proposal to move beyond the Risk-Based Survey Model
   design:
     spacing:
       padding: ["40px","0","20px","0"]
@@ -17,16 +17,15 @@ sections:
   content:
     text: |-
 
-      ### {{< icon name="user-tie" pack="fas" >}} **Organization:** Sustainable agriculture
+      ### {{< icon name="user-tie" pack="fas" >}} **Placeholder:** Placeholder
         
-      ### {{< icon name="briefcase" pack="fas" >}} **Location:** Sulawesi, Indonesia
+      ### {{< icon name="briefcase" pack="fas" >}} **Placeholder:** Placeholder
         
-      ### {{< icon name="terminal" pack="fas" >}} **Themes:** Mixed cropping, income diversification, computer simulations
+      ### {{< icon name="terminal" pack="fas" >}} **Placeholder:** Placeholder
   design:
     background:
-      image:
-        color: '#00D8B8'
-        text_color_light: no
+      gradient_end: '#feab00'
+      gradient_start: '#fd7d00'
     css_class: 'brief'
     spacing:
       padding: ["0px","0","15px","0"]
@@ -48,7 +47,8 @@ sections:
     flip_alt_rows: yes
     view: community/showcase_rounded
     background:
-      color: '#ffffff'
+      gradient_end: '#008f96'
+      gradient_start: '#167799'
       text_color_light: no
 - block: markdown
   design:

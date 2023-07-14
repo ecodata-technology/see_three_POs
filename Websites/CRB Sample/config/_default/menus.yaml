@@ -4,13 +4,13 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: "Project Index"
+  - name: "Proposal Index"
     url: /
     weight: 10
-  - name: "1: Agroforestry Simulations"
+  - name: "1: Model Design"
     url: /project/sim-report
     weight: 20
-#  - name: "2: Hand Pollination"
+#  - name: "2: Example outputs"
 #    url: /project/dummy-url
 #    weight: 20
 
