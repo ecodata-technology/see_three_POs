@@ -5,7 +5,7 @@ sections:
   content:
     title: |-
     
-      Moving beyond the Risk-Based Survey Model
+      Beyond the Risk-Based Survey Model
   design:
     spacing:
       padding: ["40px","0","20px","0"]
