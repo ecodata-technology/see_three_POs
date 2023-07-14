@@ -7,7 +7,7 @@
 
 appearance:
   theme_day: crb
-  theme_night: crb
+  theme_night:
   font: crb
   font_size: L
 
