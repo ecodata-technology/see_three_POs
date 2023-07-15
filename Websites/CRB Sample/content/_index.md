@@ -42,7 +42,6 @@ sections:
     spacing:
       padding: ["40px","0","40px","0"]
     columns: '1'
-    view: showcase
     flip_alt_rows: yes
     view: community/showcase_rounded
     background:
