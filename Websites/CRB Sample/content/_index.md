@@ -10,12 +10,8 @@ sections:
     spacing:
       padding: ["40px","0","20px","0"]
     background:
-      image:
-        filename: bg.jpeg
-        size: cover
-        position: center
-        parallax: yes
-        text_color_light: yes
+      gradient_end: '#ffffff'
+      gradient_start: '#ffffff'
     css_class: 'big_headline'
 - block: markdown
   content:
@@ -52,6 +48,15 @@ sections:
       gradient_end: '#008f96'
       gradient_start: '#167799'
       text_color_light: no
+- block: markdown
+  design:
+    background:
+      image:
+        filename: bg.jpeg
+        size: cover
+        position: center
+        parallax: yes
+        text_color_light: yes
 date: "2022-10-24"
 type: landing
 ---
