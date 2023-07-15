@@ -1,11 +1,13 @@
 ---
-title: '''What if?'' scenarios in cacao agroforestry'
-weight: 3
-summary: |2-
-  How can we see if farms will perform well if they take a decade to reach maturity? Using a combination of farm data and computer simulations, we can see how things will play out before planting a single seed.
+title: Designing a new survey protocol
+weight: 1
+summary: |-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 image:
   preview_only: yes
-tags: Solution
+tags: Intro
 share: no
 profile: no
 comments: no
