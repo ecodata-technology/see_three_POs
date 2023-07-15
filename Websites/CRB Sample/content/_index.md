@@ -44,10 +44,11 @@ sections:
     columns: '1'
     view: showcase
     flip_alt_rows: yes
+    view: community/showcase_rounded
     background:
       gradient_end: '#008f96'
       gradient_start: '#167799'
-      text_color_light: no
+      text_color_light: yes
 - block: markdown
   design:
     background:
