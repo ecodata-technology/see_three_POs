@@ -4,8 +4,9 @@ weight: 3
 summary: |-
   How can we see if farms will perform well if they take a decade to reach maturity? Using a combination of farm data and computer simulations, we can see how things will play out before planting a single seed.
 image:
-  preview_only: yes
-tags: Solution
+  preview_only: true
+tags:
+- Solution
 share: no
 profile: no
 comments: no
