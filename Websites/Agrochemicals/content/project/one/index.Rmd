@@ -4,7 +4,7 @@ weight: 1
 image:
   preview_only: true
 summary: |-
-  Agrochemical products deal with all the environmental extremes that occur in the field. Our client suspected high air temperatures were preventing an organic insecticide from working. A survey of growers using this plant-derived product confirmed their suspicions, but they needed hard numbers to improve usage reccomendations.
+  Agrochemical products deal with all the environmental extremes that occur in the field. Our client suspected high air temperatures were preventing an organic insecticide from working. A survey of growers using this plant-derived product confirmed their suspicions, but they needed hard numbers to improve usage recommendations.
   
   We gathered the rest of the data. Though temperature was important, our data scientists uncovered more questions about product performance on farms in different US states.
   
