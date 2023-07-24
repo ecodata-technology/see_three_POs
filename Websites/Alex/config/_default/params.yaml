@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day:
-  theme_night: ecodata
-  font: ecodata
+  theme_day: crb
+  theme_night:
+  font: crb
   font_size: L
 
 # SEO
@@ -31,8 +31,8 @@ marketing:
 
 header:
   navbar:
-    block: econavbar
-    enable: false
+    block: crbnavbar
+    enable: true
     align: r
     show_logo: true
     show_language: false
@@ -44,7 +44,7 @@ header:
 
 footer:
   copyright:
-    notice: 'Content by Dr Alex Blake 2023'
+    notice: 'Content by EcoData Technology LLC 2023'
     license:
       enable: false
       allow_derivatives: false

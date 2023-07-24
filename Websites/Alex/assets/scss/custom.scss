@@ -1,11 +1,20 @@
 .big_headline h1 {
-font-size: 300%;
+font-size: 320%;
+font-weight: 900;
+color:#212932;
 }
 .brief h3 {
 font-size: 120%;
-font-weight: 400;
+font-weight: 600;
+color:#ffffff;
 }
 .navbar {
 height: 110px;
-font-size: 0.85rem;
+font-size: 1rem;
+font-weight: 700;
+color:#ffffff;
+background: linear-gradient(to right, white 600px, rgba(22,119,153,1) 0%, rgba(0,143,150,1) 100%);
+}
+.navbar-brand img {
+max-height: 110px;
 }
