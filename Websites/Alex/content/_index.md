@@ -6,6 +6,7 @@ sections:
   content:
     username: admin
     text: |>
+    
     R 🧙, taming ag & environmental data and solving business problems with models and sexy visuals.
 - block: markdown
   content:
