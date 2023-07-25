@@ -3,7 +3,14 @@ title: Pest management guidelines from messy data
 weight: 1
 image:
   preview_only: true
-summary: Field data are messy - unlike a lab, companies rarely have a perfect experiment planned out before they start collecting. I rescued a dataset that written off by our client to provide meaningful guidelines for pest control. I enriched the data by scraping climate and geospatial covariates from DAYMET and Google Earth Engine, using PCA to to squeeze in all these correlations.
+summary: |-
+  **Tools:** R, SQL, Python, PCA, Hypothesis tests
+  
+  **Problem:** Field data are messy - unlike a lab, companies rarely have a perfect experiment planned out before they start collecting. Our client's data lacked controls and consistent treatments.
+  
+  **Answer:** Restructured the data to focus on correlations instead. Enriched the data by scraping climate and geospatial covariates from DAYMET and Google Earth Engine.
+  
+  **Outcome:** Rescued the dataset and sunk costs, developed meaningful guidelines for pest control.
 tags:
 - R
 - hypothesis testing
