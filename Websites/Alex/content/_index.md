@@ -7,16 +7,16 @@ sections:
     username: admin
     text: |-
       R 🧙, taming ag & environmental data and solving business problems with models and sexy visuals.
-      {style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 - block: markdown
   text: |-
-    Data scientist & consultant for multinational, government, and academic clients in the agriculture and environmental sectors. Biology PhD leveraging years of experience in hypothesis testing and modeling to pull cool stories from messy data.Previously worked on marine zooplankton, scorpion venoms, invasive weeds, environmental policy, wetland conservation, and the UK space sector.
-    Main wheelhouse is R, but also experienced with SQL, Python, and dabbled in a handful of other languages. I do analysis on experiments with hypothesis tests, time series, and spatial data with tools like mixed models, GAMs, and ML to name a few; and storytelling with beautiful ggplots, animations, Shiny apps, PowerBI, and websites.
+  Data scientist & consultant for multinational, government, and academic clients in the agriculture and environmental sectors. Biology PhD leveraging years of experience in hypothesis testing and modeling to pull cool stories from messy data.Previously worked on marine zooplankton, scorpion venoms, invasive weeds, environmental policy, wetland conservation, and the UK space sector.
+  Main wheelhouse is R, but also experienced with SQL, Python, and dabbled in a handful of other languages. I do analysis on experiments with hypothesis tests, time series, and spatial data with tools like mixed models, GAMs, and ML to name a few; and storytelling with beautiful ggplots, animations, Shiny apps, PowerBI, and websites.
   design:
     background:
-      image:
-        color: '#1b2724'
-        text_color_light: yes
+      gradient_start: '#ffffff'
+      gradient_end: '#465594'
+      gradient_angle: 180
+      text_color_light: true
     css_class: 'brief'
     spacing:
       padding: ["20px","0","5px","0"]
@@ -35,7 +35,7 @@ sections:
     flip_alt_rows: no
     view: masonry
     background:
-      color: '#ffffff'
+      color: '#465594'
       text_color_light: yes
 date: "2022-10-24"
 type: landing
