@@ -6,7 +6,7 @@ sections:
   design:
     background:
       gradient_start: '#ffffff'
-      gradient_end: '#465594'
+      gradient_end: '#ffffff'
       gradient_angle: 180
       text_color_light: true
   content:

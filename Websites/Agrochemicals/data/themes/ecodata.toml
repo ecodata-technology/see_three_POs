@@ -19,6 +19,3 @@ name = "ecodata" # Based on https://www.ecodata.tech/
   # Home sections
   home_section_odd = "#1b2724"
   home_section_even = "#1b2724"
-  
-  # cards
-  card = "#123456"

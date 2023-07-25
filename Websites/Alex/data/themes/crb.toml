@@ -19,3 +19,7 @@ name = "alex" # Based on https://citrusresearch.org/
   # Home sections
   home_section_odd = "#ffffff"
   home_section_even = "#ffffff"
+  
+    
+  # cards
+  card = "#123456"
