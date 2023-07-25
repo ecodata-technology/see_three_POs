@@ -5,8 +5,7 @@ sections:
   id: about
   content:
     username: admin
-    text: |> 
-    R 🧙, taming ag & environmental data and solving business problems with models and sexy visuals.
+    text: R 🧙, taming ag & environmental data and solving business problems with models and sexy visuals.
 - block: markdown
   content:
     text: Data scientist & consultant for multinational, government, and academic clients in the agriculture and environmental sectors. Biology PhD leveraging years of experience in hypothesis testing and modeling to pull cool stories from messy data.Previously worked on marine zooplankton, scorpion venoms, invasive weeds, environmental policy, wetland conservation, and the UK space sector.
