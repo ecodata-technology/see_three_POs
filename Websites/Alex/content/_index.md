@@ -8,7 +8,6 @@ sections:
     text: R 🧙, taming ag & environmental data and solving business problems with models and sexy visuals.
 - block: markdown
   content:
-    text: Data scientist & consultant for multinational, government, and academic clients in the agriculture and environmental sectors. Biology PhD leveraging years of experience in hypothesis testing and modeling to pull cool stories from messy data.Previously worked on marine zooplankton, scorpion venoms, invasive weeds, environmental policy, wetland conservation, and the UK space sector. Main wheelhouse is R, but also experienced with SQL, Python, and dabbled in a handful of other languages. I do analysis on experiments with hypothesis tests, time series, and spatial data with tools like mixed models, GAMs, and ML to name a few; and storytelling with beautiful ggplots, animations, Shiny apps, PowerBI, and websites.
   design:
     background:
       image:
@@ -50,11 +49,9 @@ sections:
   content:
     text: |-
 
-      ### {{< icon name="user-tie" pack="fas" >}} **Placeholder:** Placeholder
-        
-      ### {{< icon name="briefcase" pack="fas" >}} **Placeholder:** Placeholder
-        
-      ### {{< icon name="terminal" pack="fas" >}} **Placeholder:** Placeholder
+      Data scientist & consultant for multinational, government, and academic clients in the agriculture and environmental sectors. Biology PhD leveraging years of experience in hypothesis testing and modeling to pull cool stories from messy data.Previously worked on marine zooplankton, scorpion venoms, invasive weeds, environmental policy, wetland conservation, and the UK space sector.
+      
+      Main wheelhouse is R, but also experienced with SQL, Python, and dabbled in a handful of other languages. I do analysis on experiments with hypothesis tests, time series, and spatial data with tools like mixed models, GAMs, and ML to name a few; and storytelling with beautiful ggplots, animations, Shiny apps, PowerBI, and websites.
   design:
     background:
       gradient_end: '#feab00'
