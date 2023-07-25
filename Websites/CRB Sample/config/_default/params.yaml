@@ -32,7 +32,7 @@ marketing:
 header:
   navbar:
     block: crbnavbar
-    enable: false
+    enable: true
     align: r
     show_logo: true
     show_language: false
