@@ -6,7 +6,7 @@ title: Alex Blake
 role: 'Data Scientist'
 
 # Short bio (displayed in user profile at end of posts)
-bio: R wizard, taming ag & environmental data and solving business problems with mixed & Bayesian models.
+bio: R 🧙, taming ag & environmental data and solving business problems with models and sexy visuals.
 
 social:
 - icon: envelope
