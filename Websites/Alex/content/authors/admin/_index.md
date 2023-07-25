@@ -19,8 +19,8 @@ social:
   icon_pack: fab
   link: https://github.com/alexblake1290
 - icon: cv
-   icon_pack: ai
-   link: files/cv.pdf
+  icon_pack: ai
+  link: files/cv.pdf
   
 superuser: true
 ---
