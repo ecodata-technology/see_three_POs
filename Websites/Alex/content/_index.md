@@ -3,12 +3,6 @@ title: "Alex Blake - Data Scientist at Ecodata"
 sections:
 - block: about.avatar
   id: about
-  design:
-    background:
-      gradient_start: '#ffffff'
-      gradient_end: '#ffffff'
-      gradient_angle: 180
-      text_color_light: no
   content:
     username: admin
     text: |-

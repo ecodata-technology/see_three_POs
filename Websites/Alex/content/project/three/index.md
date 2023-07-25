@@ -4,14 +4,13 @@ weight: 3
 image:
   preview_only: true
 summary: |-
-
   **Tools:** R, SQL, ABM, ABC
   
-  **Problem:** When breaking into a new market it's hard to judge business risks - especially when data is scarce.
+  **Problem:** When breaking into a new market it's hard to judge risks - especially when data is scarce.
   
   **Answer:** An agent-based simulation of market behavior, calibrated on a tiny test/train dataset with Approximate Bayesian Computation.
   
-  **Result:** Used by Newton Launch Systems to win a share of a £500k UK government grant. Predicted the weak market growth that drove out a major competitor in 2022.
+  **Result:** Used to win a share of a £500k UK government grant. Predicted weak market growth that drove out a major competitor in 2022.
 
 tags:
 - hypothesis testing

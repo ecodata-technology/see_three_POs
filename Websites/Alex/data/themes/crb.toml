@@ -13,13 +13,9 @@ name = "alex" # Based on https://citrusresearch.org/
   # Menu
   menu_primary = "#ffffff"
   menu_text = "#ffffff"
-  menu_text_active = "ffa202"
+  menu_text_active = "#ffa202"
   menu_title = "#ffffff"
 
   # Home sections
   home_section_odd = "#ffffff"
   home_section_even = "#ffffff"
-  
-    
-  # cards
-  card = "#123456"
