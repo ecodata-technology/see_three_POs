@@ -3,7 +3,7 @@
 title: Alex Blake
 
 # Role/position
-role: 'Data Scientist'
+role: 'Data Scientist @ Ecodata'
 
 # Short bio (displayed in user profile at end of posts)
 bio: R 🧙, taming ag & environmental data and solving business problems with models and sexy visuals.
