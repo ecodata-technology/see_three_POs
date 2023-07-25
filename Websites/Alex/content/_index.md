@@ -6,7 +6,7 @@ sections:
   content:
     username: admin
     text: |-
-      R 🧙 taming ag & enviro data. Solving business problems with models and sexy visuals.
+      R 🧙 taming ag & enviro data. Solving business problems with models, automation, and hot visuals.
 - block: portfolio
   content:
     filters:
