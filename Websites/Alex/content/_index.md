@@ -30,8 +30,8 @@ sections:
     spacing:
       padding: ["40px","0","40px","0"]
     columns: '1'
-    flip_alt_rows: yes
-    view: community/showcase_rounded
+    flip_alt_rows: no
+    view: masonry
     background:
       color: '#1b2724'
       text_color_light: yes
