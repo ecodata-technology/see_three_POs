@@ -8,7 +8,7 @@ sections:
       gradient_start: '#ffffff'
       gradient_end: '#ffffff'
       gradient_angle: 180
-      text_color_light: true
+      text_color_light: no
   content:
     username: admin
     text: |-
@@ -28,8 +28,10 @@ sections:
     flip_alt_rows: no
     view: masonry
     background:
-      color: '#465594'
-      text_color_light: yes
+      gradient_start: '#465594'
+      gradient_end: '#2155ff'
+      gradient_angle: 90
+      text_color_light: no
 date: "2022-10-24"
 type: landing
 ---
