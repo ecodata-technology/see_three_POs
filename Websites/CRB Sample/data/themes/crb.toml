@@ -7,8 +7,8 @@ name = "crb" # Based on https://citrusresearch.org/
   background = "#ffffff"
 
   text = "#212932"
-  link = "#ffa202"
-  link_hover = "#ffa202"
+  link = "#212932"
+  link_hover = "#212932"
 
   # Menu
   menu_primary = "#ffffff"
