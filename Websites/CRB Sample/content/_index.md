@@ -31,9 +31,7 @@ sections:
       padding: ["0px","0","15px","0"]
 - block: markdown
   content:
-    text: |-
-
-      ![](CRB progress bar.png)
+    text: ![](CRB progress bar.png)
   design:
     background:
       gradient_end: '#008f96'
