@@ -33,7 +33,7 @@ sections:
   content:
     text: |-
 
-      ### progress bar goes here
+      ![](CRB progress bar.png)
   design:
     background:
       gradient_end: '#008f96'
