@@ -33,7 +33,7 @@ sections:
   content:
     text: |-
       
-      {{< figure src="CRB progress bar.png#center" >}}
+      <img src="CRB progress bar.png" align="middle">
   design:
     background:
       gradient_end: '#ffffff'
