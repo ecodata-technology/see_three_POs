@@ -17,11 +17,11 @@ sections:
   content:
     text: |-
 
-      ### {{< icon name="user-tie" pack="fas" >}} **Placeholder:** Placeholder
-        
-      ### {{< icon name="briefcase" pack="fas" >}} **Placeholder:** Placeholder
-        
-      ### {{< icon name="terminal" pack="fas" >}} **Placeholder:** Placeholder
+      ## **Overview of progress**
+      
+      ### {{< icon name="square-check" pack="fas" >}} **Current stage:** Grant submission
+      
+      ### {{< icon name="clock" pack="fas" >}} **Next milestone:** Date TBA
   design:
     background:
       gradient_end: '#feab00'
@@ -32,7 +32,7 @@ sections:
 - block: markdown
   content:
     text: |-
-      
+
       <img src="CRB progress bar.png" align="middle">
   design:
     background:
@@ -40,7 +40,7 @@ sections:
       gradient_start: '#ffffff'
     css_class: 'brief'
     spacing:
-      padding: ["0px","0","15px","0"]
+      padding: ["15px","0","30px","0"]
 - block: portfolio
   content:
     filters:

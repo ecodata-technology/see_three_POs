@@ -7,12 +7,12 @@ main:
   - name: "Proposal Index"
     url: /
     weight: 10
-  - name: "1: Model Design"
-    url: /project/sim-report
+  - name: "1: Project Overview"
+    url: /project/one
     weight: 20
-#  - name: "2: Example outputs"
-#    url: /project/dummy-url
-#    weight: 20
+  - name: "Meet the Team"
+    url: /project/dummy-url
+    weight: 30
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
