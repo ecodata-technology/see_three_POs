@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem | EcoData</title>
+    <link>https://ecodata-shiny-demo.netlify.app/tag/problem/</link>
+      <atom:link href="https://ecodata-shiny-demo.netlify.app/tag/problem/index.xml" rel="self" type="application/rss+xml" />
+    <description>Problem</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://ecodata-shiny-demo.netlify.app/media/logo.svg</url>
+      <title>Problem</title>
+      <link>https://ecodata-shiny-demo.netlify.app/tag/problem/</link>
+    </image>
+    
+    <item>
+      <title>Leveraging industry standards</title>
+      <link>https://ecodata-shiny-demo.netlify.app/project/two/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ecodata-shiny-demo.netlify.app/project/two/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

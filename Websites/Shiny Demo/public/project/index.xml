@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | EcoData</title>
+    <link>https://ecodata-shiny-demo.netlify.app/project/</link>
+      <atom:link href="https://ecodata-shiny-demo.netlify.app/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://ecodata-shiny-demo.netlify.app/media/logo.svg</url>
+      <title>Projects</title>
+      <link>https://ecodata-shiny-demo.netlify.app/project/</link>
+    </image>
+    
+    <item>
+      <title>Forecasting Spongy moth densities</title>
+      <link>https://ecodata-shiny-demo.netlify.app/project/one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ecodata-shiny-demo.netlify.app/project/one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging industry standards</title>
+      <link>https://ecodata-shiny-demo.netlify.app/project/two/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ecodata-shiny-demo.netlify.app/project/two/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What we&#39;re doing next</title>
+      <link>https://ecodata-shiny-demo.netlify.app/project/three/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ecodata-shiny-demo.netlify.app/project/three/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
